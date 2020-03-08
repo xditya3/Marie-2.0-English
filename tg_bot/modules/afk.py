@@ -22,7 +22,7 @@ def afk(bot: Bot, update: Update):
         reason = ""
 
     sql.set_afk(update.effective_user.id, reason)
-    update.effective_message.reply_text("{} is away from the keyboard ! ".format(update.effective_user.first_name))
+    update.effective_message.reply_text("{} is away from the keyboard ! [JOIN HERE](t.me/giveaways_24hrs) . ".format(update.effective_user.first_name))
 
 
 @run_async
