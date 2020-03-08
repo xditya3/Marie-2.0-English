@@ -18,42 +18,36 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hoi {}, my name is {}! if you have any questions about how to use me please give me /help... 
+Hello {}, my name is {}!
+I am a group manager bot maintained by  [this person](tg://user?id={}).
 
-im a group manager bot maintained by  [this person](tg://user?id={}).
-
-My future updates will be put into This Channel - @MarieChechi & My Support Group @InFoTelGroup.
-
-This is my [Deploy Code](https://heroku.com/deploy?template=https://github.com/TGExplore/Marie-2.0-English),
-you can create clone same like me..
+Do join my creators [channel](t.me/giveaways_24hrs) and [Discuss Group](t.me/giveaways24hrsdiscuss) .
 
 For more commands click /help...
 
-**Keep in mind that any changes you DO do to the source have to be on github, as per the license.**
 
 """
 
 HELP_STRINGS = """
 
-Hello! my name *{}*.
+Hello! My name is *{}*.
 
-*Main* available commands:
- - /start: Start the bot...
- - /help: help....
- - /donate: To find out more about donating!
- - /settings:
-   - in PM: To find out what SETTINGS you have set....
-   - in a group:
+*Main*. List of available commands:
+ 🤜 /start: Start the bot...
+ 🤜 /help: help....
+ 🤜 /donate: To find out more about donating!
+ 🤜 /settings:
+   👊 in PM: To find out what SETTINGS you have set....
+   👊 in a group:
 
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
-motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+DONATE_STRING = """Hey there, glad to hear you want to donate!
+It took lots of work for [my creator](t.me/xditya) to get me to where I am now, and every donation helps \
+motivate him to make me even better. All the donation money will go to a better VPS to host me. He's just a poor student, so every little helps!
+PM him if you would like to donate him. [PM him](t.me/xditya)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
